@@ -15,7 +15,7 @@ function toggleGradiant() {
     Math.random() * 255
   )}, ${Math.floor(Math.random() * 255)}, ${Math.floor(
     Math.random() * 255
-  )}, 0.73), rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(
+  )}, 0.75), rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(
     Math.random() * 255
-  )}, ${Math.floor(Math.random() * 255)}, 0.73)) ,url('src/stock.webp')`;
+  )}, ${Math.floor(Math.random() * 255)}, 0.75)) ,url('src/stock.webp')`;
 }
