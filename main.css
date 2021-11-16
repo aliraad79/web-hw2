@@ -26,3 +26,12 @@ body {
   bottom: 0;
   width: 100%;
 }
+
+#skill:hover {
+  transform: scale(1.2);
+}
+
+#skill_box {
+  width: 30rem;
+  box-shadow: 10px 10px 5px 12px grey;
+}
