@@ -1,6 +1,6 @@
 /* Nav bar padding */
 body {
-  padding-top: 125px;
+  padding-top: 130px;
 }
 
 /* Header */
@@ -33,5 +33,10 @@ body {
 
 #skill_box {
   width: 30rem;
-  box-shadow: 10px 10px 5px 12px grey;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 9px grey;
+}
+
+#skill_box_header {
+  border-radius: 20px;
 }
