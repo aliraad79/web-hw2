@@ -1,6 +1,13 @@
+/* Font */
+@font-face {
+  font-family: "Nazanin";
+  src: url("src/nazanin.ttf");
+}
+
 /* Nav bar padding */
 body {
   padding-top: 130px;
+  font-family: Nazanin;
 }
 
 /* Header */
