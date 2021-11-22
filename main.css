@@ -80,6 +80,15 @@ body {
 
 .contact_us_logo:hover {
   transform: scale(1.5);
-  transition: all 1s ;
+  transition: all 1s;
   background: rgb(255, 196, 0);
+}
+
+.footer {
+  background-color: #313131;
+  font-size: 30px;
+  text-align: center;
+  color: #b0b0b0;
+  height: 300px;
+  line-height: 100px;
 }
