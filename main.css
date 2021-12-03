@@ -83,3 +83,6 @@ body {
   transition: all 1s ;
   background: rgb(255, 196, 0);
 }
+.contact_us_background {
+  background-image: url(src/contact_us.svg);
+}
