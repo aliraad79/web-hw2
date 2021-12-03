@@ -86,3 +86,6 @@ body {
 .contact_us_background {
   background-image: url(src/contact_us.svg);
 }
+.card-hover:hover{
+  margin: 0rem !important; 
+}
