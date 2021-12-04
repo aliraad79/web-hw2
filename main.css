@@ -80,9 +80,39 @@ body {
 
 .contact_us_logo:hover {
   transform: scale(1.5);
-  transition: all 1s ;
+  transition: all 1s;
   background: rgb(255, 196, 0);
 }
 .contact_us_background {
   background-image: url(src/contact_us.svg);
+}
+.card-hover:hover {
+  margin: 0rem !important;
+}
+.lorm_btn {
+  color: white;
+  font-family: El Messiri;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  position: relative;
+  top: 12rem;
+  right: 55rem;
+}
+.lorm_h {
+  position: relative;
+  top: 10rem;
+  right: 55rem;
+  color:black;
+  font-size: 5rem;
+  font-family: El Messiri;
+  z-index: 1;
+}
+.lorm_p {
+  position: relative;
+  top: 10rem;
+  right: 55rem;
+  color:gray;
+  font-size: 1rem;
+  font-family: El Messiri;
+  z-index: 1;
 }
