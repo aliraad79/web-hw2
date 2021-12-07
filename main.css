@@ -134,15 +134,15 @@
   
   .image-top-position {
     position:absolute;
-    top:0;
-    left:0;
+    top:10px;
+    left:10px;
     width:80%;
   }
 
   .image-bot-position {
     position:absolute;
-    bottom:0;
-    right:0;
+    bottom:10px;
+    right:10px;
     width:80%;
   }
 
