@@ -125,6 +125,40 @@
     z-index: 1;
   }
 
+  /* Activities */
+  .image-parent{
+    position:relative;
+    width:600px;
+    height:400px;
+  }
+  
+  .image-top-position {
+    position:absolute;
+    top:0;
+    left:0;
+    width:80%;
+  }
+
+  .image-bot-position {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:80%;
+  }
+
+  .image-top-index {
+    z-index:1;
+  }
+
+  .image-bot-index {
+    z-index:0;
+  }
+
+  .image-bot-index:hover {
+    z-index: 2;
+  }
+  
+
   #contact_us_text:hover {
     transform: scale(1.5);
     transition: all 1s;
