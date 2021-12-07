@@ -34,3 +34,27 @@ function popupClicked() {
     popup.classList.toggle("show");
   }
 }
+
+
+// small screen 
+function toggleHamburger() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+
+
+function toggleSmallGradiant() {
+  document.getElementById(
+    "small_header"
+  ).style.backgroundImage = `linear-gradient(to right, rgba(${Math.floor(
+    Math.random() * 255
+  )}, ${Math.floor(Math.random() * 255)}, ${Math.floor(
+    Math.random() * 255
+  )}, 0.75), rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(
+    Math.random() * 255
+  )}, ${Math.floor(Math.random() * 255)}, 0.75)) ,url('src/stock.webp')`;
+}
