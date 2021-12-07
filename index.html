@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Corp. Inc</title>
 </head>
 
@@ -339,12 +340,186 @@
     </div>
 
     <div id="SmallScreen">
-        Testing
-    </div>
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        <!-- Navbar -->
+        <div class="topnav">
+            <a href="#home" class="active">منو</a>
+            <div id="myLinks">
+                <a href="#news">بخش اول</a>
+                <a href="#contact">بخش دوم</a>
+                <a href="#about">بخش سوم</a>
+            </div>
+
+            <a class="icon" onclick="toggleHamburger()">
+                منو
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <!-- Navbar -->
+
+        <!-- Hedear -->
+        <div id="small_header">
+            <strong class="small_lorm_h"> لـــــــورم ایپــوم</strong>
+            <p class="small_lorm_p">این یه متن ساختگی هست که نمره بگیرد:))</p>
+            <p class="small_lorm_p">البته امیدواریم که بگیرد:))</p>
+            <button type="button" class="btn-lg btn-warning small_lorm_btn" , onclick="toggleSmallGradiant()">
+                لـــــــورم</button>
+        </div>
+        <!-- /Hedear -->
+        <!-- Card -->
+        <div style="margin-top:2rem; margin-bottom: 4rem;" id="cards">
+            <div class="d-flex justify-content-center">
+                <div class="card border-warning card-hover small_skill_box" style="margin: 2rem;">
+                    <div class="card-header skill_box_header">
+                        <h6 class="card-title">97105703</h6>
+                        <h2 class="card-title">علی احمدی</h2>
+                        <p class="card-text">مهندسی کامپیوتر دانشگاه شریف</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> پایتون</h5>
+                        </div>
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> جنگو</h5>
+                        </div>
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> ردیس</h5>
+                        </div>
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> pine script</h5>
+                        </div>
+                    </ul>
+                    <div class="card-body text-center">
+                        <button type="button" class="btn btn-lg btn-outline-warning"><a href="#" class="card-link">Card
+                                link</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="card border-warning card-hover small_skill_box" style="margin: 2rem;">
+                    <div class="card-header skill_box_header">
+                        <h6 class="card-title">97105703</h6>
+                        <h2 class="card-title">علی احمدی</h2>
+                        <p class="card-text">مهندسی کامپیوتر دانشگاه شریف</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> پایتون</h5>
+                        </div>
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> جنگو</h5>
+                        </div>
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> ردیس</h5>
+                        </div>
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> pine script</h5>
+                        </div>
+                    </ul>
+                    <div class="card-body text-center">
+                        <button type="button" class="btn btn-lg btn-outline-warning"><a href="#" class="card-link">Card
+                                link</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="card border-warning card-hover small_skill_box" style="margin: 2rem;">
+                    <div class="card-header skill_box_header">
+                        <h6 class="card-title">400011247</h6>
+                        <h2 class="card-title">جعفر صادقی</h2>
+                        <p class="card-text">مهندسی کامپیوتر دانشگاه شریف</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> پایتون</h5>
+                        </div>
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> جنگو</h5>
+                        </div>
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> جاوا</h5>
+                        </div>
+                        <div class="d-flex p-2 bd-highlight skill">
+                            <h5 class="bi bi-arrow-left-circle-fill"> postgres </h5>
+                        </div>
+                    </ul>
+                    <div class="card-body text-center">
+                        <button type="button" class="btn btn-lg btn-outline-warning"><a
+                                href="https://github.com/jafarsadeghi/" class="card-link">Git hub</a></button>
+                    </div>
+                </div>
+            </div>
+            <!-- /Card -->
+
+            <!-- Gallery  -->
+            <!-- Carousel wrapper -->
+            <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <!-- Inner -->
+                <div class="carousel-inner">
+                    <!-- Single item -->
+                    <div class="carousel-item">
+                        <img src="src/gallery-1.jpg" class="d-block w-100" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>
+                                Nulla vitae elit libero, a pharetra augue mollis interdum.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Single item -->
+                    <div class="carousel-item active">
+                        <img src="src/gallery-2.jpg" class="d-block w-100" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Single item -->
+                    <div class="carousel-item">
+                        <img src="src/gallery-3.jpg" class="d-block w-100" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>
+                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Inner -->
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
+                    data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
+                    data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Carousel wrapper -->
+            <!-- /Gallery  -->
+
+        </div>
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 
 </body>
 
