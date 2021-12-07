@@ -328,4 +328,5 @@
   .card-hover:hover {
     transform: scale(1.2);
   }
+  .top-buffer { margin-top:20px; }
 }
